@@ -283,17 +283,21 @@
       Et retourne la somme des chiffres qui composent ce nombre
       La fonction doit retourner le résultat
  */
-
-function somme(number){
-      let finalRes = 0;
-      let arrNb = number.split('');
-      // console.log(arrNb);
-      for(let i = 0; i < arrNb.length; i++){
-            finalRes += parseInt(arrNb[i]); // ou finalRes += +arrNb[i];
-      }
-      return finalRes;
-}
-console.log(somme('12'));
+//       // Création d'une fonction
+// function somme(number){
+//             // Variable pour stocker le resultat final
+//       let finalRes = 0;
+//             // Stocker number dans un array
+//       let arrNb = number.split('');
+//             // Boucle qui parcours mon tableau pour additionner les chiffres entres eux
+//       for(let i = 0; i < arrNb.length; i++){
+//             finalRes += parseInt(arrNb[i]); // ou finalRes += +arrNb[i];
+//       }
+//          // Afficher le resultat
+//       return finalRes;
+// }
+//       // Afficher ma fonction
+// console.log(somme('12'));
 
 /*
       EXO 16
@@ -302,7 +306,20 @@ console.log(somme('12'));
       Et retourne le même tableau en inversant le premier et le dernier élément
       La fonction doit retourner le tableau
  */
-
+//       // Création d'une fonction
+// function inverse(numbers){
+//             // Variables qui stock le premier et le dernier element du tableau
+//       let firstElement = numbers.shift();
+//       let lastElement = numbers.pop();
+//             // Ajouter le premier element du tableau a la fin de ce dernier
+//       numbers.push(firstElement);
+//             // Ajouter le dernier element du tableau au debut de ce dernier
+//       numbers.unshift(lastElement);
+//             // Afficher mon tableau
+//       return numbers;
+// }
+//       // Afficher ma fonction
+// console.log(inverse([5, 3, 2, 6]));
 
 
 /*
