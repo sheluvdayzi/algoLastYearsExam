@@ -5,11 +5,16 @@
       Sans espaces entre les nombres
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
-
+//       // Variable
+// let finalRes = '';
+//       // Boucle pour parcourir les 10 chiffres
 // for(let i = 0; i <= 10; i++){
+//             // Ajouter 1 à 0 et afficher le resultat
 //       let result = i += 0;
-//       console.log(result);
+//       finalRes += result;
 // }
+//       // Afficher le resultat
+// console.log(finalRes);
 /*
       EXO 2
       Construire une chaîne de caractères en utilisant une boucle
@@ -17,10 +22,17 @@
       Avec des espaces entre les nombres
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
+//       // Variable
+// let finalRes = '';
+//       // Boucle pour parcourir les 10 chiffres
 // for(let i = 0; i < 10; i++){
+//       // Ajouter un a 0 a chaque tour et afficher le resultat
 //       let res = i += 0;
-//       console.log(res + ' ');
+//       finalRes = finalRes + ' ';
+//       finalRes += res;
 // }
+//       // Afficher le resultat
+// console.log(finalRes);
 
 /*
       EXO 3
@@ -29,10 +41,21 @@
       Avec des espaces entre les nombres
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
-for(let i = 0; i < 100; i++){
-      let res = i%2 == 0;
-      console.log(res[i]);
-}
+//       // Variables
+// let finalRes = '';
+//       // Boucles pour verifier tout les nb de 0 à 100
+// for(let i = 0; i <= 100; i++){
+//             // Condition pour savoir si le chiffre est impaire
+//       if(i%2==1){
+//                   // Ajouter le chiffre impaire à res
+//             let res = i;
+//                   // Ajouter un espace entre chaque chiffres
+//             finalRes = finalRes + ' ';
+//             finalRes += res;
+//       }
+// }
+//       // Afficher le resultat
+// console.log(finalRes);
 
 /*
       EXO 4
@@ -41,7 +64,19 @@ for(let i = 0; i < 100; i++){
       Avec des espaces entre les nombres
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
-
+//       // Variables
+// let multiplicateur = 7;
+// let finalRes = '';
+//       // Boucles pour ajouter un à chaque tour à mon multiplicateur 
+// for(let i = 1; i <= 10; i++){
+//             // Nouvelle variable pour stocker le resultat
+//       let res = multiplicateur * i;
+//             // Pour ajouter un espace entre chaque res
+//       finalRes = finalRes + ' ';
+//       finalRes += res;
+// }
+//       // Afficher le resultat 
+// console.log(finalRes);
 
 /*
       EXO 5
@@ -51,7 +86,20 @@ for(let i = 0; i < 100; i++){
       Avec des espaces entre les nombres
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
-
+//       // Variable
+// let finalRes = '';
+//       // Premiere boucle pour le premier chiffre a multiplier
+// for(let i = 0; i <= 10; i++){
+//             // Deuxieme boucle pour le deuxieme chiffre a multiplier
+//       for(let j = 0; j <= 10; j++){
+//                   // Calcul pour les multiplier et ajouter un espace entre chaque resultat
+//             let res = i * j;
+//             finalRes = finalRes + ' ';
+//             finalRes += res;
+//       }
+// }
+//       // Afficher le resultat
+// console.log(finalRes);
 
 /*
       EXO 6
@@ -59,7 +107,20 @@ for(let i = 0; i < 100; i++){
       ce nombre devra être la somme des nombres de 1 a 10
       La fonction doit retourner le résultat
  */
-
+//       // Création d'une fonction
+// function sommes(){
+//             // Variables
+//       let res = 0;
+//       let result;
+//             // Boucle pour parcourir et additioner les chiffres de 1 à 10
+//       for(let i = 0; i <= 10; i++){
+//             result = res += i;
+//       }
+//             // Afficher le resultat
+//       console.log(result);
+// }
+//       // Afficher la fonction
+// sommes();
 
 /*
       EXO 7
@@ -67,7 +128,19 @@ for(let i = 0; i < 100; i++){
       ce nombre devra être le factoriel du nombre 10
       La fonction doit retourner le résultat
  */
-
+//       // Création d'une fonction
+// function fact(){
+//             // Crée variable result pour stocker le resultat
+//       let result = 1;
+//             // Boucle qui parcour les chiffres de 1 à 10 pour ensuite les multiplier entre eux
+//       for(let i = 1; i <= 10; i++){
+//             result *= i;
+//       }
+//             // Afficher le resultat
+//       console.log(result);
+// }
+//       // Afficher la fonction
+// fact();
 
 /*
       EXO 8
@@ -75,7 +148,21 @@ for(let i = 0; i < 100; i++){
       ce nombre devra être la somme des nombres paires de 10 a 30
       La fonction doit retourner le résultat
  */
-
+//       // Création d'une fonction
+// function calc(){
+//             // Variable qui stockera le result
+//       let res = 0;
+//             // Boucle qui parcours tout les chiffres de 10 a 30 et qui garde uniquement les nombres paires et les additionnes entre eux
+//       for(let i = 10; i <= 30; i++){
+//             if(i%2==0){
+//                   res += i;
+//             }
+//       }
+//             // Afficher le resultat
+//       console.log(res);
+// }
+//       // Afficher la fonction
+// calc();
 
 /*
       EXO 9
@@ -84,6 +171,17 @@ for(let i = 0; i < 100; i++){
       La fonction doit retourner la température en Fahrenheit
       ex: (30 °C × 9/5) + 32 = 86 °F
  */
+//       // Création d'une fonction
+// function convertisseur(celcius){
+//             // Variable pour stocker le res
+//       let res;
+//             // Calcul pour la convertion
+//       res = (celcius * 9/5) + 32;
+//             // Afficher le resultat
+//       console.log(res);
+// }
+//       // Afficher la fonction
+// convertisseur(30);
 
 
 /*
@@ -93,6 +191,19 @@ for(let i = 0; i < 100; i++){
       La fonction doit retourner le résultat
       Vous devez utiliser une boucle (pas de reduce)
  */
+      // Création d'une fonction
+// function sommetab(numbers){
+//             // Variable pour stocker le resultat
+//       let res = 0;
+//             // Boucle qui parcours mon tableau et qui additionne les chiffres du tableaux a res 
+//       for(let i = 0; i < numbers.length; i++){
+//             res += numbers[i];
+//       }
+//             // Afficher mon resultat
+//       return res;
+// }
+//       // Afficher ma fonction
+// console.log(sommetab([5, 10, 15]));
 
 
 /*
@@ -102,6 +213,19 @@ for(let i = 0; i < 100; i++){
       La fonction doit retourner le résultat
       Vous devez utiliser une boucle (pas de reduce)
  */
+//       // Création d'une variable
+// function moyenneArr(numbers){
+//             // Variable qui stock mon resultat
+//       let res = 0;
+//             // Boucle qui parcours mon tableau pour ensuite l'additionner
+//       for(let i = 0; i < numbers.length; i++){
+//             res += numbers[i];
+//       }
+//             // Afficher la moyenne en divisant l'addition de mon tableau avec sa taille
+//       return res / numbers.length;
+// }
+//       // Afficher ma fonction
+// console.log(moyenneArr([0, 10]));
 
 
 /*
@@ -111,6 +235,21 @@ for(let i = 0; i < 100; i++){
       La fonction doit retourner le nouveau tableau
       Vous devez utiliser une boucle (pas de filter)
  */
+//       // Création d'une fonction
+// function triPositif(numbers){
+//             // Variable pour stocker pour nouveau tableau
+//       let newArr = [];
+//             // Boucle qui parcours mon tableau pour trier et garder uniquement les nombres positifs
+//       for(let i = 0; i < numbers.length; i++){
+//             if(numbers[i] >= 0){
+//                   newArr.push(numbers[i]);
+//             }
+//       }
+//             // Afficher mon nouveau tableau
+//       return newArr;
+// }
+//       // Afficher ma fonction
+// console.log(triPositif([-1, 5, 12, -45]));
 
 
 /*
@@ -119,7 +258,13 @@ for(let i = 0; i < 100; i++){
       Et retourne le nombre maximum dans ce tableau
       La fonction doit retourner le résultat
  */
-
+//       // Création d'une fonction
+// function biggest(numbers){
+//             // Afficher le plus grand chiffre du tableau
+//       return Math.max(...numbers);
+// }
+//       // Afficher ma console
+// console.log(biggest([5, 7, -5, -59, 14]));
 
 /*
       EXO 14
@@ -139,6 +284,16 @@ for(let i = 0; i < 100; i++){
       La fonction doit retourner le résultat
  */
 
+function somme(number){
+      let finalRes = 0;
+      let arrNb = number.split('');
+      // console.log(arrNb);
+      for(let i = 0; i < arrNb.length; i++){
+            finalRes += parseInt(arrNb[i]); // ou finalRes += +arrNb[i];
+      }
+      return finalRes;
+}
+console.log(somme('12'));
 
 /*
       EXO 16
