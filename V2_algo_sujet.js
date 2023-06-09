@@ -275,7 +275,20 @@
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
       Tips: Fibonacci => 0 1 1 2 3 (2+1) 5 (3+2)... n (n-2 + n-1)
  */
-
+//       // Création d'une fonction
+// function fib(){
+//             // Variable qui stock mes premiers element que je vais additionner pour la suite de Fibonacci
+//       let fibArr = [1, 2];
+//             // Boucle pour qu'il y ai les 10 chiffres de ma suite Fibonacci
+//       for(let i = 2; i < 10; i++){
+//                   // Additionner le dernier et l'avant dernier chiffre entres eux pour avoir le prochain chiffre de ma suite Fibonacci
+//             fibArr[i] = fibArr[i - 2] + fibArr[i - 1];
+//       }
+//             // Afficher mon resultat
+//       return fibArr.join(" ");
+// }
+//       // Afficher ma fonction
+// console.log(fib());
 
 /*
       EXO 15
@@ -283,7 +296,7 @@
       Et retourne la somme des chiffres qui composent ce nombre
       La fonction doit retourner le résultat
  */
-//       // Création d'une fonction
+// //       Création d'une fonction
 // function somme(number){
 //             // Variable pour stocker le resultat final
 //       let finalRes = 0;
@@ -330,6 +343,18 @@
       La fonction doit retourner le résultat
  */
 
+//       // Création d'une fonction
+// function nbSpecial(text){
+//             // regEx pour tout mes caractères speciaux
+//       const regEx = /[^a-zA-Z\d\s]/gm;
+//             // Trouver les caractères speciaux de mon text
+//       let found = text.match(regEx);
+//             // Retourne le nombre de caractères speciaux 
+//       return found.length;
+// }
+//       // Affiche ma fonction
+// console.log(nbSpecial("Je poste des photos, et j'ai mis le #super"));
+
 
 /*
       EXO 18
@@ -338,5 +363,19 @@
       la fonction doit calculer la moyenne des nombres présents dans cette chaîne de      caractères
       La fonction doit retourner le résultat
  */
-
+//       // Création d'une fonction
+// function moy(text){
+//             // Variable pour enlever les virgules et l'avoir en tableaux
+//       let supVirgule = text.split(',');
+//             // Variable pour mon resultat final
+//       let finalRes = 0;
+//             // Boucle qui parcours tout mon tableau
+//       for(let i = 0; i < supVirgule.length; i++){
+//             finalRes +=  parseInt(supVirgule[i]);   
+//       }
+//             // Affiche la moyenne 
+//       return finalRes / supVirgule.length;
+// }
+//       // Afficher ma fonction
+// console.log(moy('0,100,200'));
 
